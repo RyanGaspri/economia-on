@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.economiaon.presentation.navigation.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_finances_chart"
+        android:name="com.economiaon.presentation.navigation.financeschart.FinancesChartFragment"
+        android:label="@string/title_finances"
+        tools:layout="@layout/fragment_finances_chart" />
+
+    <fragment
+        android:id="@+id/navigation_finances_list"
+        android:name="com.economiaon.presentation.navigation.financeslist.FinancesListFragment"
+        android:label="@string/title_latest_finances"
+        tools:layout="@layout/fragment_finances_list" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.economiaon.presentation.navigation.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
