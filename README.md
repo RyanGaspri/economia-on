@@ -1,30 +1,31 @@
 # Economy On
 
-## This is an app made to help people controlling your finances, separating by:
+## Este é um aplicativo feito para ajudar as pessoas a controlar suas finanças, separando por:
 
-- Leisure
-- Personal Development
+- Lazer
+- Desenvolvimento Pessoal
 - Social
-- Physiology
-- Security
+- Fisiologia
+- Segurança
 
-## App features:
 
-- Chart (Spent money by type)
-- Finances List
+## Recursos do Aplicativo:
 
-## Technologies
+- Gráfico (Gastos por tipo)
+- Lista de Finanças
 
-- Clean Architecture
-- MVVM
+## Tecnologias
+
+- Arquitetura Limpa
+- MVVM (Model-View-ViewModel)
 - Kotlin Coroutines
 - LiveData
 - Retrofit
 - Fragments
-- Navigation Component
-- SplashScreen API
+- Componente de Navegação
+- API de Tela de Abertura (SplashScreen)
 - ViewBinding
 
-## API used (Spring Boot)
+## API usada: Spring Boot
 
-If you have interest on the API behind this project, click here: [Economy On Api](https://github.com/patrick-jk/economy-on-api)
+
